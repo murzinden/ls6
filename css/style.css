@@ -1,0 +1,176 @@
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext ");
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 50px;
+	font-family: 'Gilroy' ;
+	background-color: #333;
+	color: #fff;
+}
+/* ------------------------------ */
+
+
+.header {
+}
+.circle {
+	margin: 0px 0px 50px 0px;
+	text-align: center;
+}
+.circle__title {
+	font-size: 20px;
+	font-weight: 800;
+	margin: 0px 0px 20px 0px;
+}
+.circle__main {
+	width: 200px;
+	height: 200px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	margin: 0px auto 0px auto;
+}
+.paragrpaph {
+	margin: 0px 0px 50px 0px;
+	text-align: center;
+}
+.paragrpaph__title {
+	font-size: 20px;
+	font-weight: 800;
+	margin: 0px 0px 20px 0px;
+}
+.paragrpaph__main {
+	max-width: 200px;
+	border: 3px solid #fff;
+	padding: 10px;
+	opacity: 0.5;
+	margin: 0px auto 0px auto;
+	border-radius: 20px;
+}
+.span {
+	margin: 0px 0px 50px 0px;
+	text-align: center;
+}
+.span__title {
+	font-size: 20px;
+	font-weight: 800;
+	margin: 0px 0px 20px 0px;
+}
+.span__main {
+	display: block;
+	max-width: 200px;
+	margin: 0px auto 20px auto;
+	padding: 5px;
+	border-bottom: 3px solid #fff;
+}
+.border {
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+.border__title {
+	font-size: 20px;
+	font-weight: 800;
+	margin: 0px 0px 20px 0px;
+}
+.border__main {
+	margin: 0px auto 20px auto;
+	width: 200px;
+	height: 200px;
+	border-bottom: 3px solid #fff;
+	border-top: 3px dashed #fff;
+	border-left: 3px double #fff;
+	border-right: 3px dotted #fff;
+}
+.link {
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+.link_title {
+	font-size: 20px;
+	font-weight: 800;
+	margin: 0px 0px 20px 0px;
+}
+.link__main {
+	border-radius: 20px;
+	display: inline-block;
+	padding: 10px 15px 10px 15px;
+	font-weight: 800;
+	color: #fff;
+	text-transform: uppercase;
+	box-shadow: 10px 2px 23px 7px #fff , inset 3px 2px 8px 5px #fff;
+
+}
